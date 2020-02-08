@@ -42,7 +42,7 @@ end
 def kesha_maker(arr)
 
   arr.map do |el|
-    el = el[0..1]+"$"+el[3..]
+    el[2] = "$"
   end
 
 
