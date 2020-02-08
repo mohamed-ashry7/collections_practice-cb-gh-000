@@ -37,6 +37,7 @@ def kesha_maker(arr)
 
   arr.map do |el|
     el[2] = "$"
+    el
   end
 end
 
