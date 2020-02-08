@@ -23,3 +23,8 @@ def sort_array_char_count(arr)
   end
 
 end
+
+
+def swap_elements(arr)
+
+end
