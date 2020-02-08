@@ -30,6 +30,6 @@ def swap_elements(arr)
 end
 
 def swap_elements_from_to(arr,from,to)
-  a
+  arr[from],arr[to] = arr[to] , a[from]
 
 end
