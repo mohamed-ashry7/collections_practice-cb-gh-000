@@ -13,7 +13,6 @@ def sort_array_desc(array)
       return 0
     else
       return -1
-
     end
   end
 end
