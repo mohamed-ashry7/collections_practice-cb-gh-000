@@ -62,7 +62,7 @@ end
 
 
 def add_s(arr)
-  arr.map do |el|
-    
+  arr.map_with_index do |el,index|
+    el << "s" unless index ==2
   end
 end
