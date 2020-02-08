@@ -57,7 +57,7 @@ end
 
 
 def add_s(arr)
-  arr.map_with_index do |el,index|
+  arr.each_with_index.map do |el,index|
     el << "s" unless index ==2
   end
 end
