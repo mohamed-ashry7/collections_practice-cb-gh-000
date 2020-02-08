@@ -62,5 +62,7 @@ end
 
 
 def add_s(arr)
-
+  arr.map do |el|
+    
+  end
 end
