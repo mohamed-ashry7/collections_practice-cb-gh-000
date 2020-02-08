@@ -19,7 +19,7 @@ end
 
 def sort_array_char_count(arr)
   arr.sort do |a,b|
-    a.size <=> b.size 
+    a.size <=> b.size
   end
-  
+
 end
