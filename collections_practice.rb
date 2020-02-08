@@ -49,6 +49,3 @@ def kesha_maker(arr)
 
 
 end
-
-
-  
