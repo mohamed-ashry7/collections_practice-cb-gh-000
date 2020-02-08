@@ -48,6 +48,8 @@ end
 
 
 def find_a(arr)
-
+  arr.select do |el|
+    el.start_with?("a")
+  end
 
 end
