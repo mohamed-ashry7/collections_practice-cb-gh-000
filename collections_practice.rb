@@ -58,6 +58,6 @@ end
 
 def add_s(arr)
   arr.each_with_index.map do |el,index|
-    index ==2 ? el : el << "s"
+    index ==1 ? el : el << "s"
   end
 end
