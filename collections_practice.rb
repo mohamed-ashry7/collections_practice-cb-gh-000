@@ -7,7 +7,7 @@ end
 
 def sort_array_desc(array)
   array.sort do |a,b|
-    -1 * a<=>b
+    b<=>a
   end
 end
 
