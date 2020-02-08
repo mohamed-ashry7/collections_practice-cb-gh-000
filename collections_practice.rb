@@ -29,7 +29,7 @@ def swap_elements(arr)
 
 end
 
-def swap_elements_from_to(from,to,arr)
-
+def swap_elements_from_to(arr,from,to)
+  a
 
 end
