@@ -56,7 +56,7 @@ end
 
 
 def sum_array(arr)
-
+  arr.inject(:+)
 end
 
 
