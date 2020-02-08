@@ -44,5 +44,10 @@ def kesha_maker(arr)
   arr.map do |el|
     el[2] = "$"
   end
+end
+
+
+def find_a(arr)
+
 
 end
