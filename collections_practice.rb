@@ -7,13 +7,7 @@ end
 
 def sort_array_desc(array)
   array.sort do |a,b|
-    if a<b
-      return 1
-    elsif a==b
-      return 0
-    else
-      return -1
-    end
+    -1 * a<=>b
   end
 end
 
