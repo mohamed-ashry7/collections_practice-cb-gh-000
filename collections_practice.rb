@@ -26,7 +26,7 @@ end
 
 
 def swap_elements(arr)
-
+  swap_elements_from_to(arr,1,2)
 end
 
 def swap_elements_from_to(arr,from,to)
